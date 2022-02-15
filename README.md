@@ -7,7 +7,7 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![R-CMD-check](https://github.com/fernandobastosneto/barao/workflows/R-CMD-check/badge.svg)](https://github.com/fernandobastosneto/barao/actions)
+[![R-CMD-check](https://github.com/SCAEC/barao/workflows/R-CMD-check/badge.svg)](https://github.com/fernandobastosneto/barao/actions)
 <!-- badges: end -->
 
 <img src="barao_logo.png" height="300"/>
@@ -28,7 +28,7 @@ com foco particular em dados de economia internacional.
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("fernandobastosneto/barao")
+devtools::install_github("SCAEC/barao")
 ```
 
 ## Funcionalidades
