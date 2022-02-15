@@ -1,0 +1,28 @@
+---
+imagem: "![](logo-palacio.jpg){width=3in}"
+title: ""
+subtitle: ""
+shorttitle: ""
+area: 
+  divisao: ""
+  departamento: ""
+  secretaria: ""
+date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+output:
+  # pagedown::html_paged:
+  barao::template_itamaraty:
+    template: template.html
+    toc: true
+    number_sections: true
+    css:
+      - tese.css
+toc-title: Índice
+paged-footnotes: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+# Tema
